@@ -8,9 +8,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div className='flex flex-col h-screen justify-center items-center border-solid'>
       {/*Tailwind CSS*/}
-      <h2 className='text-3xl underline text-red-500'>Hello World</h2>
+      <h2 className='text-3xl underline text-red-500 text-center'>Hello World</h2>
       <br></br>
       {/*Button using MUI library*/}
       <Button variant="text">Hello World</Button>
